@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+.titulo {
+
+    font-size: 45px;
+    font-style: italic;
+    font-family: 'Open Sans', sans-serif;
+
+
+}
+
+:root {
+
+    --cor-fundo: rgb(34, 41, 37);
+    --cor-hover: rgb(118, 180, 145);
+    --cor-primaria: rgb(231, 241, 236);
+
+}
+
+.menuH ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.menuH ul {
+    background-color: var(--cor-fundo);
+
+}
+
+.menuH ul li {
+    display: inline;
+    position: relative;
+}
+
+.menuH ul li a {
+    color: var(--cor-primaria);
+    text-decoration: none;
+    display: inline-block;
+    padding: 20px;
+    transition: background .5s;
+}
+
+.menuH ul li a:hover {
+    background-color: var(--cor-hover);
+
+}
+
+/* .menuH ul li:last-child { */
+    #Direita{
+    float: right; 
+
+
+}
+
+
+/*submenu*/
+
+.menuH ul ul {
+    display: none;
+    left: 0;
+    position: absolute;
+
+}
+
+.menuH ul li:hover ul {
+    display: block;
+
+}
+
+.menuH ul ul {
+    width: 150px
+}
+
+.menuH ul ul li a {
+    display: block;
+}
+
+.coluna-50 {
+    flex-direction: column;
+    font-style: italic;
+    font-family: 'Open Sans', sans-serif;
+    align-items: center;
+    line-height: 2;
+    display: flex;
+    width: 100%;
+
+
+}

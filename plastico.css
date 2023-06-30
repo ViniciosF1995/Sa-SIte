@@ -1,0 +1,37 @@
+*{
+    border: 1px solid red;
+}
+
+
+#plastico{
+    background-color: #e49c9c;
+}
+
+
+.tituloPlastico {
+    text-align: center;
+    text-decoration: underline;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#paragrafoPlastico {
+    display: block;
+    max-width: 50%;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#paragrafoPlastico2 {
+    display: block;
+    max-width: 50%;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.img-plastico {
+    margin-top: -80px;
+    float: right;
+    height: 600px;
+}
+
+

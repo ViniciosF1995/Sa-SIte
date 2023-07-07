@@ -2,9 +2,16 @@
     border: 1px solid red;
 }
 
+#container{
+    display: flex; 
+}
 
 #eletronico{
     background-color: #a8a8a8;
+}
+
+#txtesquerda{
+    width: 50%;
 }
 
 .tituloEletronicos {
@@ -13,22 +20,31 @@
     font-family: Arial, Helvetica, sans-serif; 
 }
 
+.imgEletronico {
+    width: 50%;
+    margin-top: 7px;
+    padding: 10px;
+    text-align: center;
+
+}
+
+.img2Eletronico {
+    width: 50%;
+    margin-top: 7px;
+    padding: 10px;
+    text-align: center;
+
+}
+
+
 #paragrafoEletr1 {
-    display: block;
-    max-width: 50%;
+    margin-top: 0;
     text-align: left;
     font-family: Arial, Helvetica, sans-serif; 
 }
 
 #paragrafoEletr2 {
-    display: block;
-    max-width: 50%;
     text-align: left;
     font-family: Arial, Helvetica, sans-serif;  
 }
 
-.img-eltronico {
-    margin-top: 75px;
-    float: right;
-    height: 600px; 
-}
